@@ -11,6 +11,13 @@
     </header>
 
     <main>
+
+        {% for post in site.posts %}
+    
+    <h1>{{post.title}}</h2>
+    <h2>{{post.url}}</h2>
+{% endif %}
+        
         {{ content }}
     </main>
 </body>
