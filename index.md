@@ -1,6 +1,6 @@
 ---
-layout:default
-tite:home
+layout: default
+tite: home
 ---
 
 # Welcome to My site
